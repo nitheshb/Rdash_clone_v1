@@ -14,7 +14,7 @@ const Layout = (props: Props) => {
         className={`transition-all duration-300 ease-in-out overflow-hidden ${
           isExpanded ? 'w-[250px]' : 'w-[60px]'
         }`}
-        onMouseEnter={() => setIsExpanded(true)}
+        onClick={() => setIsExpanded(true)}
         onMouseLeave={() => setIsExpanded(false)}
       >
         <MenuOptions isExpanded={isExpanded} />

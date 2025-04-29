@@ -101,8 +101,13 @@ export const menuOptions = [
   {  Component: RDash, href: "/" },
   { name: "Insights", Component: Insights, href: "/insights" },
   { name: "My Project", Component: ProjectIcon, href: "/dashboard" },
-  { name: "My Tasks", Component: Tasks, href: "/settings" },
-   { 
+ 
+
+  // { name: "Billing", Component: Payment, href: "/billing" },
+  // { name: "Templates", Component: Templates, href: "/templates" },
+  { name: "Manage Vendor", Component: ManageVendor, href: "/manage-vendors" },
+  { name: "Manage Client", Component: ManageClient, href: "/clients" },
+  { 
     name: "All Libraries", 
     Component: AllLibraries, 
     href: "/All-libraries",
@@ -112,10 +117,7 @@ export const menuOptions = [
       { name: "Shared Libraries", href: "/All-libraries/shared-libraries" }
     ]
   },
-  // { name: "Billing", Component: Payment, href: "/billing" },
-  // { name: "Templates", Component: Templates, href: "/templates" },
-  { name: "Manage Vendor", Component: ManageVendor, href: "/manage-vendors" },
-  { name: "Manage Client", Component: ManageClient, href: "/clients" },
+  { name: "My Tasks", Component: Tasks, href: "/settings" },
   { name: "Org.Settings", Component: settings, href: "/Insights" },
 
 ];
