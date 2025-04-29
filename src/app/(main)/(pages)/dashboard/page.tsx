@@ -196,7 +196,7 @@ const statusTabs = [
           </main>
 
         <Sheet open={isModalOpen}>
-  <SheetContent className="py-0 w-[650px]  max-h-[100vh] overflow-y-auto">
+  <SheetContent className="py-0 w-[650px]  max-h-[100vh] overflow-y-auto bg-white">
     <SheetHeader>
       <SheetTitle className="py-4">Create Project</SheetTitle>
     </SheetHeader>

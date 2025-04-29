@@ -246,10 +246,9 @@ function CreditNotesView() {
                 <td colSpan={9} className="text-center text-gray-500 p-4">
                   <div className="flex flex-col items-center justify-center py-6">
 
-                    <Image
+                    <Image className="w-16 h-16 mb-4"
   src="/api/placeholder/80/80"
   alt="No data"
-  className="mb-4"
 />
                     <p>No Credit Note data to show</p>
                   </div>
